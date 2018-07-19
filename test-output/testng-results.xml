@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Step: Successfully clicked on Menu]]>
+    </line>
+    <line>
+      <![CDATA[Step: Successfully entered User Name]]>
+    </line>
+    <line>
+      <![CDATA[Step: Successfully entered Password]]>
+    </line>
+    <line>
+      <![CDATA[Step: Successfully clicked on Sign in button]]>
+    </line>
+    <line>
+      <![CDATA[Ignored granting finger print permission]]>
+    </line>
+    <line>
+      <![CDATA[Step: Successfully Logged into the aplication]]>
+    </line>
+    <line>
+      <![CDATA[Step: Successfully entered an item in search box]]>
+    </line>
+    <line>
+      <![CDATA[Step: Successfully selected searched item]]>
+    </line>
+    <line>
+      <![CDATA[Step: Successfully clicked on Buy It Now Button]]>
+    </line>
+    <line>
+      <![CDATA[Step: Successfully clicked on Review Button]]>
+    </line>
+    <line>
+      <![CDATA[Step: Successfully clicked on Proceed to Pay button]]>
+    </line>
+    <line>
+      <![CDATA[Step: Customer successfully navigated to PaymentGateway Screen]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="102791" started-at="2018-07-19T11:18:00Z" finished-at="2018-07-19T11:19:43Z">
+    <groups>
+      <group name="Positive">
+        <method signature="PurchaseTest.toVerifyPurchasingAnItem()[pri:0, instance:com.automate.ebay.test.PurchaseTest@1d4cc9e]" name="toVerifyPurchasingAnItem" class="com.automate.ebay.test.PurchaseTest"/>
+      </group> <!-- Positive -->
+      <group name="UAT">
+        <method signature="PurchaseTest.toVerifyPurchasingAnItem()[pri:0, instance:com.automate.ebay.test.PurchaseTest@1d4cc9e]" name="toVerifyPurchasingAnItem" class="com.automate.ebay.test.PurchaseTest"/>
+      </group> <!-- UAT -->
+      <group name="Smoke">
+        <method signature="PurchaseTest.toVerifyPurchasingAnItem()[pri:0, instance:com.automate.ebay.test.PurchaseTest@1d4cc9e]" name="toVerifyPurchasingAnItem" class="com.automate.ebay.test.PurchaseTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Search and Purchase an Item" duration-ms="102791" started-at="2018-07-19T11:18:00Z" finished-at="2018-07-19T11:19:43Z">
+      <class name="com.automate.ebay.test.PurchaseTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.automate.ebay.test.PurchaseTest@1d4cc9e]" name="startBrowser" is-config="true" duration-ms="19426" started-at="2018-07-19T16:48:00Z" finished-at="2018-07-19T16:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="toVerifyPurchasingAnItem()[pri:0, instance:com.automate.ebay.test.PurchaseTest@1d4cc9e]" name="toVerifyPurchasingAnItem" duration-ms="80766" started-at="2018-07-19T16:48:20Z" finished-at="2018-07-19T16:49:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step: Successfully clicked on Menu]]>
+            </line>
+            <line>
+              <![CDATA[Step: Successfully entered User Name]]>
+            </line>
+            <line>
+              <![CDATA[Step: Successfully entered Password]]>
+            </line>
+            <line>
+              <![CDATA[Step: Successfully clicked on Sign in button]]>
+            </line>
+            <line>
+              <![CDATA[Ignored granting finger print permission]]>
+            </line>
+            <line>
+              <![CDATA[Step: Successfully Logged into the aplication]]>
+            </line>
+            <line>
+              <![CDATA[Step: Successfully entered an item in search box]]>
+            </line>
+            <line>
+              <![CDATA[Step: Successfully selected searched item]]>
+            </line>
+            <line>
+              <![CDATA[Step: Successfully clicked on Buy It Now Button]]>
+            </line>
+            <line>
+              <![CDATA[Step: Successfully clicked on Review Button]]>
+            </line>
+            <line>
+              <![CDATA[Step: Successfully clicked on Proceed to Pay button]]>
+            </line>
+            <line>
+              <![CDATA[Step: Customer successfully navigated to PaymentGateway Screen]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toVerifyPurchasingAnItem -->
+        <test-method status="PASS" signature="endtest(org.testng.ITestResult)[pri:0, instance:com.automate.ebay.test.PurchaseTest@1d4cc9e]" name="endtest" is-config="true" duration-ms="2539" started-at="2018-07-19T16:49:41Z" finished-at="2018-07-19T16:49:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyPurchasingAnItem status=SUCCESS method=PurchaseTest.toVerifyPurchasingAnItem()[pri:0, instance:com.automate.ebay.test.PurchaseTest@1d4cc9e] output=Step: Successfully clicked on Menu]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+      </class> <!-- com.automate.ebay.test.PurchaseTest -->
+    </test> <!-- Search and Purchase an Item -->
+  </suite> <!-- Suite -->
+</testng-results>

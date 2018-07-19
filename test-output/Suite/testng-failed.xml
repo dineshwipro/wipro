@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test1(failed)">
+    <parameter name="URL_" value="127.0.0.1:4723/wd/hub"/>
+    <parameter name="udid_" value="J5AAB760A214F6M"/>
+    <parameter name="deviceName_" value="ASUS_X00TD"/>
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.automate.ebay.test.PurchaseTest">
+        <methods>
+          <include name="toVerifyLoginToApp"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- com.automate.ebay.test.PurchaseTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,7 @@
+/*
+*This Property file Consists of plaform details
+*/
+Platform=android
+
+Reports_Path=./ExtentReports/
+
